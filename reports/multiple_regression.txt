@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         annual_sales_k   R-squared:                       0.143
+Model:                            OLS   Adj. R-squared:                  0.066
+Method:                 Least Squares   F-statistic:                     1.857
+Date:                Thu, 12 Nov 2026   Prob (F-statistic):              0.101
+Time:                        16:25:04   Log-Likelihood:                -515.89
+No. Observations:                  74   AIC:                             1046.
+Df Residuals:                      67   BIC:                             1062.
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const          1587.3266   1072.043      1.481      0.143    -552.481    3727.134
+median_income    -0.0043      0.002     -1.811      0.075      -0.009       0.000
+median_age        1.0288     10.230      0.101      0.920     -19.391      21.448
+pct_bachelors    15.8975      5.764      2.758      0.007       4.393      27.402
+loyalty_pct     -81.4125     66.426     -1.226      0.225    -213.999      51.174
+avg_spend      -117.4440    125.054     -0.939      0.351    -367.053     132.165
+sqft              0.1080      0.089      1.211      0.230      -0.070       0.286
+==============================================================================
+Omnibus:                        5.463   Durbin-Watson:                   1.944
+Prob(Omnibus):                  0.065   Jarque-Bera (JB):                4.810
+Skew:                           0.609   Prob(JB):                       0.0903
+Kurtosis:                       3.274   Cond. No.                     2.24e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.24e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.

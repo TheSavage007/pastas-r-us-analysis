@@ -1,0 +1,7 @@
+predictor,r,r_squared,slope,p_value,significant_at_05
+pct_bachelors,0.2499,0.0624,10.0039,0.0318,True
+loyalty_pct,-0.1008,0.0102,-51.1946,0.3926,False
+avg_spend,-0.0964,0.0093,-90.9128,0.414,False
+sqft,0.0645,0.0042,0.0482,0.5852,False
+median_income,-0.0216,0.0005,-0.0003,0.8552,False
+median_age,-0.0031,0.0,-0.2402,0.9789,False
