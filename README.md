@@ -10,7 +10,7 @@ Pastas R Us, Inc. is choosing where to open its next locations and deciding whet
 
 ## Data
 
-`data/pastas_r_us_locations.csv` holds one row per location (74 rows). See [data/data_dictionary.md](data/data_dictionary.md) for every field. Source: the Pastas R Us, Inc. case from DAT/565 Data Analysis and Business Analytics at the University of Phoenix.
+`data/pastas_r_us_locations.csv` holds one row per location (74 rows). See [data/data_dictionary.md](data/data_dictionary.md) for every field. Source: Pastas R Us, Inc.
 
 ## Approach
 
